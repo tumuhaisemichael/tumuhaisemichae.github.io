@@ -428,8 +428,11 @@ section {
 
   .navmenu .dropdown ul ul,
   .navmenu .megamenu ul ul {
+    width: auto; /* Set the width to auto to adjust based on content */
+    min-width: 200px; /* Set a minimum width to ensure content visibility */
+    max-width: 300px; /* Set a maximum width to prevent excessive stretching */
     background-color: rgba(33, 37, 41, 0.1);
-  }
+}
 
   .navmenu .dropdown>.dropdown-active,
   .navmenu .megamenu>.dropdown-active {
