@@ -386,7 +386,11 @@ section {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+<<<<<<< HEAD
     width: 30px;
+=======
+    width: auto;
+>>>>>>> 01df7691d176e70cfd0739e983f53934bf7eae58
     height: 30px;
     display: flex;
     align-items: center;
@@ -428,8 +432,16 @@ section {
 
   .navmenu .dropdown ul ul,
   .navmenu .megamenu ul ul {
+<<<<<<< HEAD
     background-color: rgba(33, 37, 41, 0.1);
   }
+=======
+    width: auto; /* Set the width to auto to adjust based on content */
+    min-width: 200px; /* Set a minimum width to ensure content visibility */
+    max-width: 300px; /* Set a maximum width to prevent excessive stretching */
+    background-color: rgba(33, 37, 41, 0.1);
+}
+>>>>>>> 01df7691d176e70cfd0739e983f53934bf7eae58
 
   .navmenu .dropdown>.dropdown-active,
   .navmenu .megamenu>.dropdown-active {
@@ -2889,4 +2901,8 @@ section,
 .blog-details .comments .reply-form .btn-primary:hover {
   color: var(--contrast-color);
   background-color: rgba(var(--accent-color-rgb), 0.8);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 01df7691d176e70cfd0739e983f53934bf7eae58
